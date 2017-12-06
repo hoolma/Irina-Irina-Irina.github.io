@@ -1,0 +1,337 @@
+
+.conteiner{
+    min-width: 900px;
+    max-width: 1024px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+
+}
+.conteiner{margin: 0 auto;}
+body{
+font-family: Arial; }
+
+.menu1 ul{position: relative;
+margin: 0;
+padding: 0;
+text-align: center;
+font-size: 18px;
+        
+  
+}
+.menu1 ul li{display: inline-block;
+ padding: 10px;}
+
+.menu1 ul ul{display: none;
+position: absolute; 
+}
+
+.menu1 li:hover ul{display: block;}
+.menu1  ul{width: 1000px; background: #1f223e;
+margin: 0 auto;}
+
+
+header{background:#1f223e;}
+
+header h1, h2{margin: 0px;
+padding: 10px}
+
+footer{height: 190px;
+    padding: 0px;
+    color: #ffffff;
+    background:#1f223e;
+    text-align: center;
+    clear:both; font-size: 16px;
+	margin: 0;
+   
+  
+}  
+sidebar-right{
+    width:250px;
+background-color:#FFFF00;
+float:right;
+    
+}
+
+.menu{
+background-color:#00C0C0;
+width:250px;
+float:left;
+}
+
+h1, h2{
+    color:#95c41f;
+
+font-family: Roboto; text-align: center;}
+
+h3, h4, h5 { color:#1f223e;
+text-shadow: 1px 0px 0px #111111;
+text-align: center;padding: 0px;
+margin: 0 auto; margin-top: 5px;}
+
+
+
+.row{
+    width: 250px;
+    padding: 0px;/*внутренний отступ(расстояние между строчками)*/
+    margin: 5px; /*внешнее поле*/ 
+    clear:both; /*внешнее обтекание*/
+    font-size: 16px;
+    color: #ffffff;  
+	
+}
+
+.row input[name=name], 
+.row select{
+    
+    width: 200px;
+    height: 25px;
+    border: 1px solid #110370;
+   margin-left: 20px;
+} /*только для атрибута name*/ 
+
+.row:last-child{
+   color: black; margin-left: 20px;
+}
+
+form{width: 250px;
+    height: 320px;
+    float: left;
+    display:inline-block;
+    
+}  
+
+form .vopros {font-size: 16px; margin: 10px; }
+form .vopros p{text-indent: 0px;
+text-align: center;}
+form .vopros input{width: 200px;
+  height: 20px;
+margin: 5px;   border: 1px solid #1f285e;}
+
+
+
+
+
+  .contentgl img{float: right;
+width: 200px;
+padding: 5px;} 
+
+main figure img{width: 100%;
+margin-left: 15px;
+display: block;
+    
+}
+#kartinka {width: 500px;
+height: 200px;
+    float: right;
+    margin-right: 70px;
+}
+hr{clear:both;  }
+.top-panel{
+    background: #1f223e;}
+
+
+.menu li{list-style-type: none;
+font-size: 20px;}
+sidebar-right li {list-style-type: none;
+font-size: 18px;}
+    
+
+        
+
+ header img {width:100%;
+     margin: 0px auto;
+
+}
+
+a{text-decoration: none;
+}
+
+.menu li:hover li{display: block;}
+a:link{color: #ffffff;}
+a:visited{color: #ffffff;}
+a:active{color: #ffffff;
+}
+
+.menu li{padding: 8px;}
+
+.menu {background:  #1f223e;}
+sidebar-right li{display: block;padding: 8px;}
+        
+
+sidebar-right{background:  #1f223e;}
+
+.row1{
+    width: 250px;
+    padding: 4px;/*внутренний отступ(расстояние между строчками)*/
+    margin: 0px; /*внешнее поле*/ 
+    clear:both; /*внешнее обтекание*/
+    font-size: 16px;
+        color: #ffffff;
+    
+	
+}
+
+.row1 input[name=name], 
+.row1 select{
+        width: 220px;
+    height: 25px;
+    font-weight: 400;
+    border: 1px solid #110370;
+   margin-left: 20px;
+} /*только для атрибута name*/ 
+
+.row1 input[radio]{ 
+  
+}
+
+.row1:last-child{
+    text-align: left;
+}
+
+
+nav, sidebar-right{height: 920px;}
+
+sidebar-right form{font-weight: 400;
+    color: #ffffff;
+margin: 0px;
+}
+sidebar-right form h3{color:#95c41f;
+font-family: Arial; text-align: center;
+width: 200px;
+margin: 20px;}
+
+
+
+.sotr img{float: left;
+width: 220px; 
+padding: 5px;
+    margin: 0 auto;
+margin-left: 25px;}
+
+
+p{text-indent: 50px;
+line-height: 25px;
+padding: 7px; }
+
+
+
+
+dl dd{
+	
+	width: 480px;
+	margin-left: 230px;
+font-weight: 100;
+    font-size: 18px;
+    text-indent: 50px;
+    line-height: 25px;
+    }
+dl dt{ text-align: center;
+ color:#ffffff;
+text-shadow: 0px 1px 0px #1e2133;
+font-family: Arial; color: #14143d;
+}
+
+caption{ 
+    color:#ffffff;
+margin: 20px;
+}
+dl{margin: 50px;
+}
+
+table {font-size: 18px;
+margin: 20px;
+border: 1px solid #95c41f;
+   
+}
+
+#yslygi, #ipoteka {
+margin-left: 30px;}
+
+#ipoteka td{padding: 25px;}
+#yslygi td{padding: 25px;}
+table td, tr{border: 1px solid #ffffff;}
+
+
+
+
+.main-content img{
+float: left; }
+.main-content figcaption li, ul{float: right; width: 250px;
+list-style-type: none; font-size: 16px; color: black; line-height: 23px;}
+
+.main-content3 ul{font-size: 13px;}
+
+
+hr{width: 200px;
+border: 1px solid #95c41f;
+} 
+
+#opisanie img{width: 350px; padding: 10px; float: left;}
+
+.harakteristik p{width: 750px;
+    margin-left: 100px;}
+
+.back{ box-shadow: 5px 5px 5px #444547;
+padding: 20px; width: 300px;margin-left: 360px}
+
+.adres img{width: 50%; padding: 10px; margin-right: 20px;
+}
+
+.adres ul{float: left;}
+iframe {float: right;
+width: 100%; height: 400px}
+
+#kontakt {padding: 0px; float: right; width: 400px; font-size: 14px;
+    border: 0px solid #ffffff;  margin-right: 60px; }
+#kontakt h4{background:#95c41f; margin: 10px; padding: 2px;}
+
+
+
+nav a:hover {
+     
+    text-decoration: underline;}
+sidebar-right a:hover {text-decoration: underline;}
+.obj ul li a{color: #95c41f; 
+text-shadow: 0px 1px 0px #1f223e;
+}
+
+.obj img {padding: 15px;
+width: 220px;}
+.obj2 {margin: 10px; float: left; }
+.main-content2 img{
+float: left; }
+.obj ul li, .obj2 ul li {font-size: 13px;}
+.obj2 ul li a{color: #95c41f; 
+text-shadow: 0px 1px 0px #1f223e;
+}
+.obj2 img{float: right; margin-left: 40px; width: 200px; height: 140px; }
+
+
+.main-content2 {float: left; margin-left:90px}
+span{ font-weight: 600;text-align: center;}
+caption{color:#1f223e;
+font-weight: 600;
+}
+.contentgl img{margin-right: 38px; margin-top: 15px; }
+
+p img{width: 100%;
+margin: 0 auto;}
+#logotip1 {width: 150px; float: left; margin-left: 30px; padding: 20px;}
+#logotip2 {width: 150px; float: left; margin-left: -170px; padding: 20px; margin-top: 90px}
+
+
+
+.carousel-inner{width: 100%;}
+.row2{margin-top: 50px;}
+.row2 input{
+    text-align: left; color: black; font-size: 14px; text-align: center;
+}
+.menu3{text-align: left;}
+blockquote{background: #262728; color: #ffffff; font-family: Arial; font-size: 12px;  padding: 20px;}
+
+main p{width: 500px; margin-left: 260px; margin-top: 20px; font-size: 18px;}
+.main1 p{width: 100%; margin-left: 0px;}
+.sotr figure{float: left; margin: 0px}
+.sotr figcaption{text-align: center; font-weight: 600;font-size: 12px; margin-bottom: 20px;}
